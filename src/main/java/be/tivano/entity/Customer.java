@@ -1,10 +1,13 @@
 package be.tivano.entity;
 
+import java.util.List;
+
 public class Customer {
     private Long id;
     private String firstname;
     private String lastname;
     private Address address;
+    private List<Order> orders;
 
     public Long getId() {
         return id;
