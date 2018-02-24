@@ -1,5 +1,5 @@
 package be.tivano.entity;
 
 public interface Logger {
-    public void log (String message);
+    public void log (String msg);
 }
