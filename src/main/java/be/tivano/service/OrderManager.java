@@ -4,6 +4,6 @@ import be.tivano.entity.Order;
 
 public class OrderManager {
     public void addOrder(Order order){
-
+        System.out.println("test");
     }
 }
